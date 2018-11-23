@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Game Of Life</title>
+    <script src="gameoflife.js" type="text/javascript"></script>
+</head>
+<body onload="javascript:body_onload();">
+        <button onclick="javascript:buildField();drawField();">Clear</button>
+        <button onclick="javascript:initBlinker();drawField();">Init with blinker</button>
+        <button onclick="javascript:initArrow();drawField();">Init with arrow</button>
+        <button onclick="javascript:initPulsator();drawField();">Init with Pulasator</button>
+        <button onclick="javascript:iterateGeneration();drawField();">Iterate</button>
+<br><br>
+<canvas id="canvas"></canvas>
+</body>
+</html>
